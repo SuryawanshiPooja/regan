@@ -1,0 +1,459 @@
+
+    body
+    {
+        background-color: #E092F3;
+    }
+    
+/*start of Header*/
+.container-fluid menu
+{
+    padding-left:10%;
+}
+.navbar-header
+{
+  margin-left: 5%;
+}
+.navbar-custom
+{
+    padding:0px ;
+    background-color: white;
+    height: 80px;
+    width:100%;
+}
+.nav > li > a
+{
+    color:gray; 
+    
+}
+.nav > li > a:hover, .nav > li > a:focus
+{
+    color:black;
+    background-color: white;
+}
+
+/*start Header*/
+/*start of Header-part*/
+#header-part .container-fluid
+{
+    height:auto;
+    padding:10% 0px 5% 0px;
+    background-color:#9AC9F7;
+}
+.content
+{
+    height:auto;
+}
+.content h4
+{
+    color:pink;
+    font-size:13px;
+}
+.content h2
+{
+    color:black;
+    font-size:20px;       
+}
+.content p
+{
+    color:black;
+    font-size:15px;
+}
+.content a
+{
+    text-decoration:none;
+	color:black;
+	background-color:blue;
+	border-radius:5px 0px 5px 0px;
+    padding:10px 15px;
+}
+
+.content a:hover
+{
+    background-color:#5499C7;
+    color:black;
+}
+/*end of Header-part*/
+/*start of services-part*/
+#services-part .container-fluid
+{
+    height:auto;
+    padding: 5% 10%;
+    border:1px solid white;
+}
+.container-fluid h1
+{
+    text-align: center;
+}
+.services-content
+{
+   margin-top:7%;
+}
+.content-1
+{
+    width:28%;
+    margin-right:7%;
+  
+ }
+.content-img1
+{
+  margin-left: 1%;
+  position: relative;
+}
+.content-img1 img
+{
+    
+    margin-left: 25%;
+    border: 3px solid  #fd6a95;
+    border-radius: 50%;
+}
+.content-img1 i
+{
+    position: absolute;
+    top:30%;
+    left:40%;
+    color:white;
+    font-size:40px;
+
+}
+.content-1 h1
+{
+    text-align: center;
+    font-size: 18px;
+}
+.content-1 p
+{
+    font-size:15px;
+}
+.content-2
+{
+    width:28%;   
+    margin-right:7%;
+   
+
+}
+.content-img2
+{
+  margin-left: 1%;
+}
+.content-img2 img
+{
+  
+    margin-left: 25%;
+    position: relative;
+    border: 3px solid #85bb65;
+    border-radius: 50%;
+}
+.content-img2 i
+{
+    position: absolute;
+    top:13%;
+    left:36%;
+    color:white;
+    font-size: 40px;
+
+}
+.content-2 h1
+{
+    text-align: center;
+    font-size: 18px;
+}
+.content-2 p
+{
+    font-size:15px;
+}
+.content-3
+{
+    width:28%;
+    margin-left:0%;
+
+}
+.content-img3
+{
+  margin-left: 1%;
+}
+.content-img3 img
+{
+  
+    margin-left: 25%;
+    position: relative;
+    border: 3px solid  #6FBEC0;
+    border-radius: 50%;
+}
+.content-img3 i
+{
+    position: absolute;
+    top:13%;
+    left:38%;
+    color:white;
+    font-size:40px;
+
+}
+.content-3 h1
+{
+    text-align: center;
+    font-size: 18px;
+}
+.content-3 p
+{
+   
+    font-size:15px;
+}
+
+/*end of services-part*/
+/*start of Latestwork*/
+#Latestwork-part .container-fluid
+{
+    height:auto;
+    padding: 5% 7%;
+   
+}
+.container-fluid h1 
+{
+    text-align: center;
+    margin-bottom: 7%;
+}
+.Latestwork-content
+{
+    height:auto;  
+}
+.Latestwork-content i
+{
+       
+        margin-top: 3%;
+}
+.Latestwork-content h4
+{
+ 
+    font-size:15px;
+    margin-left: 7%;
+}
+.Latestwork-content p
+{
+    font-size:15px;
+    margin-left:10%; 
+}
+.Latestwork-content a
+{
+    margin-left: 7%;
+    text-decoration:none;
+	color:black;
+	background-color:blue;
+	border-radius:5px 0px 5px 0px;
+    padding:10px 15px;
+}
+
+.Latestwork-content a:hover
+{
+    background-color:#5499C7;
+    color:black;
+}
+/*end of latestwork*/
+/*start of portfolio*/
+#portfolio-part  .container-fluid
+{
+    height:auto;
+    padding: 5% 7%;
+   
+}
+.portfolio-nav 
+{
+    text-align: center;
+    text-decoration: none;
+}
+.portfolio-nav li 
+ {
+    display: inline;
+    font-size: 18px;
+    padding: 20px;
+
+  }
+  
+.portfolio-img
+{
+    height:auto;
+    margin-top:5%;  
+   
+}
+
+
+/*end of portfolio*/
+/*start of happyclient*/
+#happyclient .container-fluid
+{
+    height:auto;
+    padding: 5% 7%;
+   
+}
+.container-fluid h1{text-align: center;}
+
+.happyclient-img-1 h3{ font-size:15px; text-align: center;color:#0e0e0e;}
+.happyclient-img-1 h6{ font-size:11 px; text-align: center; margin-bottom:2%;}
+.happyclient-info
+{
+    
+    padding-top:8%;
+}
+.happyclient-info p
+{
+    background-color:#f4f4f4;
+    font-size:14px;
+    margin-right:10%;
+}
+
+
+
+.happyclient-img-2 h3{ font-size:15px; text-align: center;color:#0e0e0e;}
+.happyclient-img-2 h6{ font-size:11 px; text-align: center;}
+
+/*end of happyclient*/
+/*start of amazingteam*/
+#amazingteam .container
+{
+    height:auto;
+    margin-left:9%;
+    margin-bottom:7%;
+}
+#amazingteam .container h1{text-align: center;margin-bottom:7%;}
+
+.amazingteam-content-1 h3{text-align: center;color:#0e0e0e}
+.amazingteam-content-1 h6{text-align: center;}
+
+.amazingteam-content-2 h3{text-align: center;color:#0e0e0e}
+.amazingteam-content-2 h6{text-align: center;}
+
+.amazingteam-content-3 h3{text-align: center;color:#0e0e0e}
+.amazingteam-content-3 h6{text-align: center;}
+
+.poligan
+{
+    height:auto;
+    background-color:blue;
+    text-align: center;
+    padding:5% ;
+}
+.poligan p
+{
+    color:white;
+    margin-top:2%;
+}
+/*end of amazingteam*/
+/*start of contactus*/
+#contactus 
+{
+    height:auto;
+    background-image: url('../images/pattern_bg.jpg');
+    padding:5% 10%;
+}
+#contactus  h1
+{
+    text-align: center;
+    margin-bottom:5%;
+    color:white;
+}
+.iconimg-1 img
+{
+    
+    position: relative;
+
+}
+.iconimg-1 i   
+{
+    position: absolute;
+    left:10%;
+    top: 22%;  
+    font-size:45px;
+}
+.iconimg-1 p
+{margin-top:3%;color:white;}
+.iconimg-2 img
+{
+    
+    position: relative;
+    margin-left:25%;
+}
+.iconimg-2 i   
+{
+    position: absolute;
+    left:33%;
+    top: 22%;  
+    font-size:45px;
+}
+.iconimg-2 p
+{margin-top:3%;margin-left:22%; color:white;}
+.iconimg-3 img
+{
+    
+    position: relative;
+    margin-left:45%;
+}
+.iconimg-3 i   
+{
+    position: absolute;
+    left:52%;
+    top: 22%;  
+    font-size:45px;
+}
+.iconimg-3 p
+{margin-top:3%;margin-left:40%;color:white;}
+.contactus-info-1
+{border:1px solid black;}
+.contactus-info-1 h1
+{
+    margin-top:15%;
+    font-size:30px;
+    color:white;
+}
+.contactus-info-1 p
+{color:white;}
+
+.icon
+{
+    margin-left:3%;
+    margin-top:3%;
+}
+.footer i
+{
+    margin-top:70px;
+    color:white;
+    font-size:30px;
+    border:1px solid white;
+    border-radius:50px;
+    padding: 2%;
+}
+.footer i:hover
+{
+    background-color:white;
+    color:black;
+}
+.usrform
+{
+   	margin-top:7%;
+}
+.usrform input
+{
+  
+    margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	color:gray;  
+}
+ .usrform textarea
+{
+    
+	color:gray;
+	padding: 2px 0px 0px 2px;
+
+}
+.contactus-info-2 a
+{
+ 
+ background-color:blue;
+ color:white;
+ padding:15px 30px;
+ text-decoration:none;
+ border-radius:10px 0px 15px 0px;
+}
+.contactus-info-2 a:hover
+{
+	color:orange;
+	background-color:white;

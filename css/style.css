@@ -1,0 +1,1703 @@
+* {box-sizing: border-box}
+/*start of header*/
+.container-fluid menu
+{
+  width: 100%;
+  
+}
+.navbar-header
+{
+   padding-left:5%;
+   color: #333;  
+}
+.nav
+{
+    padding-left:35%;
+    height:auto;
+}
+.nav > li > a
+{   
+   
+    color: #333;
+    transition: 0.3s;
+    display: block;
+    font-size: 13px;
+    text-transform: none;}
+.nav > li > a:hover, .nav > li > a:focus
+{
+    color:white;
+    background-color: black;
+}
+  
+#logo{padding-left:5%;padding-top:1%;}
+/*end of header*/
+/*start of homepage*/
+#homepage .homepage-container-fluid
+{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../img/hero-bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+    padding-top: 100px;
+    padding-bottom:20%;
+   
+
+}
+.homepage-container-fluid h1
+{
+    text-align: center;
+    font-size:50px;
+    color:gray;
+    padding-top:15%;
+}
+.homepage-container-fluid p
+{
+    text-align: center;
+    font-size:20px;
+    color:gray;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+.homepage-container-fluid a
+{
+    text-align: center;
+    font-size:20px;
+    color:gray;
+    border:1px solid white;
+    border-radius:10px;
+    padding:0.5%;
+    margin-left:45%; 
+}
+/*end of homepage*/
+/*start of aboutpage*/
+#about .container
+{height:auto;}
+.about-container
+{
+    height:auto;
+  
+}
+
+#about .content h2
+{
+    text-align: left;
+    font-weight:bold;
+    margin-top:10%;    
+}
+#about .content p
+{
+    padding-top:2%;
+    text-align: left;
+}
+
+.icon i
+{
+    float: left;
+    color:lightseagreen;
+    padding:2%;
+    margin-top:1%;
+    font-size:35px;
+    border:2px solid lightseagreen;
+    border-radius:50%;
+} 
+ .title 
+{
+    margin-left:12%;
+    padding-top:3%;
+    font-size:25px;
+    font-weight:bold;
+}
+#about .icon-box p
+{
+    margin-left:12%;
+    text-align: left;
+    margin-top: 20px;
+   
+}
+#about .bg-image
+{
+    border:1px solid white;
+    margin-top:20%;
+    margin-left:5%;
+
+}
+/*end of aboutpage*/
+/*start of factpage*/
+#facts .fact-container
+{
+    border:1px solid white;
+    margin-right:4%;
+    margin-left:3%; 
+}
+.fact-container h1{text-align: center;font-size:40px;font-weight:bold;}
+.fact-container p{text-align: center;font-size:20px;margin-bottom:5%;}
+.text-center{margin-left:-1%;}
+#facts .counters span {
+    font-size: 40px;
+    display: block;
+    color: #2dc997;
+  }
+  
+  #facts .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+/*end of factpage*/
+/*start of servicepage*/
+#services .container
+{
+    border:1px solid white;
+    margin-top:10%;
+     
+}
+.container h1{text-align: center;font-size:38px;font-weight:bold;padding-bottom:2%;}
+.container p{text-align: center;font-size:20px;margin-bottom: 4%;}
+#services .box
+{
+    padding: 10px 15px 2px 15px;
+    margin-bottom:9%;
+    text-align: center;
+    border: 1px solid #E5E7E9;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+                
+}
+#services .row .icon
+{
+    position: absolute;
+    top:-25px;
+    left:150px;
+    font-size:45px;
+    padding:2%;
+    border-radius:50%;
+    background-color: lightseagreen;
+
+}
+#services .row .icon :hover{color:lightseagreen;background-color:black;;}
+#services .icon a{text-align: center;display: inline;}
+#services .row .icon i{color:black;font-size:30px;}
+#services .row .title {font-size:25px;}
+#services .row .description {text-align: center;font-size:20px;line-height:25px;}
+/*end of servicepage*/
+/*start of calltoAction*/
+#calltoAction 
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 4),rgba(0,0,0,0.5)),url(../img/call-to-action-bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+}
+#calltoAction .cta-title 
+{
+    text-align: left;
+    margin-top:10%;
+    margin-left:9%;
+    color:white;
+    font-size:20px;
+}
+#calltoAction .cta-text
+{
+    text-align: left;
+    margin-top:3%;
+    margin-left:9%;
+    color:white;
+    font-size:16px;  
+}
+#calltoAction .cta-btn-container
+{
+    text-align: right;
+    margin-top:10%;
+}
+#calltoAction .cta-btn 
+{
+    border:2px solid white;
+    border-radius:10px 10px 10px 10px;
+    padding:3%;
+    font-size:20px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color:white;
+    
+}
+#calltoAction .cta-btn:hover
+{ 
+    background: #2dc997;
+    border: 2px solid #2dc997;
+    text-decoration:none;
+}
+/*end of calltoAction*/ 
+/*start of portfolio*/
+    /*
+#portfolio .container{height:auto;}
+#portfolio .portfolio-title 
+{
+    text-align: center;
+    margin-top:10%;
+    font-weight:bold;
+    font-size:38px;
+    text-transform: uppercase;
+}
+#portfolio .portfolio-description
+{
+    text-align: center;
+    font-size:20px;
+    padding-top:1%;
+}
+.portfolio-filtering
+{
+    text-decoration:none;
+    text-align: center;
+    
+}
+.btn 
+{
+    background-color: white;
+    padding:2.5%;
+}
+.btn:hover 
+{
+    background-color: #ddd;
+}
+.btn.active 
+{
+    background-color: lightseagreen;
+    color: white;
+}  
+.portfolio-img
+{
+    height:auto;
+}   
+.portfolio-img-1 img
+{
+    height:250px;
+    position: relative;
+    display:block;
+    margin-top: 10%;
+} 
+.portfolio-img-1 .overlay
+{ 
+    position: absolute;
+    background-color: lightseagreen;
+    display: inline-block;
+    text-align: center;
+    bottom: 0;
+    padding-left: 24.5%;
+    padding-right: 24.5%;
+    transition: .5s ease;
+    opacity:0;
+    color: black;
+    font-size: 20px;
+    
+   
+}
+.portfolio-img-1 img:hover
+{
+    top:-30px;
+}
+.portfolio-img-1:hover .overlay
+{
+    opacity: 1;
+}*/
+/*end of portfolio*/
+/*start of team*/
+#team .container
+{
+    height:auto;
+}
+#team .container h3
+{
+    margin-top:10%;
+    text-align: center;
+    font-size:40px;
+    color:black;
+}
+.team-img
+{
+    margin-left:0.5%;
+    text-align: center;
+}
+.social a{padding:0.5%;}
+.social i
+{
+    font-size:20px;
+    margin-top:2%;
+    background-color:lightseagreen;
+    border-radius:50%;
+    padding:1.5%;
+    color: black;
+}
+.social i:hover
+{
+    color:lightseagreen;
+    background-color: black;
+}
+/*end of team*/
+/*start of contactus*/
+#contactus .container
+{
+    height:auto;
+}
+#contactus .container h1
+{
+    margin-top:10%;
+    text-align: center;
+    font-size:40px;
+    color:black;
+}
+.info
+{
+    margin-left:5%;
+    
+}
+.info i
+{
+    color:lightseagreen;
+    font-size:20px;
+    margin-left:30%;
+    margin-top:5%;
+
+}
+.info p
+{
+    margin-top:-5%;
+    font-size:16px;
+}
+.social-links
+{
+    margin-left:35%;
+    margin-top:5%;
+}
+.social-links i
+{
+    color:lightseagreen;
+    font-size:25px;
+    background-color:black;
+    border-radius:50%;
+    padding:1%;
+}
+.social-links i:hover
+{
+    background-color: lightseagreen;
+    color:black;
+}
+.usrform input
+{
+	width:77%;
+	height:6%;
+	padding: 5px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	color:gray;  
+}
+.contactusform textarea
+{
+    width: 77%;
+    height: 150px;
+    padding: 10px 10px;
+	color:gray;
+}
+#contact .contactusform .validation 
+{
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+.contactusform a
+{
+ margin-left:50%;
+ background-color:lightseagreen;
+ color:black;
+ padding:12px 30px;
+ text-decoration:none;
+ border-radius:10px 0px 15px 0px;
+}
+.contactusform a:hover
+{
+	color:black;
+	background-color:lightseagreen;
+} 
+/*end of contactus*/
+/*start of footer*/
+#footer 
+{
+    margin-top:70%;
+    background-color: #343b40;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+  
+#footer .copyright 
+{
+    text-align: center;
+}
+  
+#footer .credits 
+{
+    
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+}
+
+#footer a
+{
+    color:white;
+    text-align: center;
+      
+}
+#footer i
+{
+    font-size:30px;
+    margin-left:50%;
+    margin-top:2%;
+}
+/*end of footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) 
+{ 
+/*start of header*/
+.icon-bar{background-color: #283747;}
+.nav {color: black;}
+/*end of header*/
+/*start of aboutus*/
+#about .icon-box .title{ margin-left:20%;}
+/*end of aboutus*/
+/*start of services */
+#services .box{margin-top:3%;}
+#services .row .icon{left:45%;}
+/*end of services*/
+/*start of callonaction*/
+.cta-btn-container{padding-bottom:5%;}
+/*end of callonaction*/
+/*start of ourteam*/
+#team .social{margin-bottom:5%;}
+/*end of ourteam*/
+/*start of contactus*/
+#contactus .info p{margin-left:1%;}
+#contactus .info i{margin-left:22%;padding-top:5%;}
+#contactus .social-links{padding-bottom:5%;}
+#contactus .usrform input{width:100%;}
+#contactus .contactusform textarea{width:100%;}
+/*end of contactus*/
+/*start of footer*/
+#footer {margin-top:280%;}
+
+/*end of footer*/
+
+}
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)
+{ 
+/*start of services*/
+#services .container p{ margin-bottom:7%;}
+#services .row .icon
+{
+    position: absolute;
+    top:-25px;
+    left:260px; 
+}
+/*end of services*/
+/*start of calltoAction*/
+#calltoAction .cta-btn-container{padding-bottom:5%;}
+/*end of calltoAction*/
+/*start of portfolio*/
+
+#portfolio .gallery_product img{margin-left:13%;}
+#portfolio .gallery_product .overlay{ margin-left:12.3%;width:68.4%;}
+
+/*end of portfolio*/
+/*start of ourtesm*/
+#team .team-img{margin-left:13%;}
+#team .social{margin-bottom:5%;}
+/*end of ourteam*/
+/*start of contactus*/
+#contactus .usrform input{margin-left:10%;margin-top:5%;}
+#contactus .contactusform textarea{margin-left:10%;}
+/*end of contactus*/
+/*start of footer*/
+#footer {margin-top:180%;}
+
+/*end of footer*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    /*start of header*/
+.container-fluid menu
+{
+  width: 100%;
+  
+}
+.navbar-header
+{
+   padding-left:5%;
+   color: #333;  
+}
+.nav
+{
+    padding-left:35%;
+    height:auto;
+}
+.nav > li > a
+{   
+   
+    color: #333;
+    transition: 0.3s;
+    display: block;
+    font-size: 13px;
+    text-transform: none;}
+.nav > li > a:hover, .nav > li > a:focus
+{
+    color:white;
+    background-color: black;
+}
+  
+#logo{padding-left:5%;padding-top:1%;}
+/*end of header*/
+/*start of homepage*/
+#homepage .homepage-container-fluid
+{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../img/hero-bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+    padding-top: 100px;
+    padding-bottom:20%;
+   
+
+}
+.homepage-container-fluid h1
+{
+    text-align: center;
+    font-size:50px;
+    color:gray;
+    padding-top:15%;
+}
+.homepage-container-fluid p
+{
+    text-align: center;
+    font-size:20px;
+    color:gray;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+.homepage-container-fluid a
+{
+    text-align: center;
+    font-size:20px;
+    color:gray;
+    border:1px solid white;
+    border-radius:10px;
+    padding:0.5%;
+    margin-left:45%; 
+}
+/*end of homepage*/
+/*start of aboutpage*/
+#about .container
+{height:auto;}
+.about-container
+{
+    height:auto;
+  
+}
+
+#about .content h2
+{
+    text-align: left;
+    font-weight:bold;
+    margin-top:10%;    
+}
+#about .content p
+{
+    padding-top:2%;
+    text-align: left;
+}
+
+.icon i
+{
+    float: left;
+    color:lightseagreen;
+    padding:2%;
+    margin-top:1%;
+    font-size:35px;
+    border:2px solid lightseagreen;
+    border-radius:50%;
+} 
+ .title 
+{
+    margin-left:12%;
+    padding-top:3%;
+    font-size:25px;
+    font-weight:bold;
+}
+#about .icon-box p
+{
+    margin-left:12%;
+    text-align: left;
+    margin-top: 20px;
+   
+}
+#about .bg-image
+{
+    border:1px solid white;
+    margin-top:20%;
+    margin-left:5%;
+
+}
+/*end of aboutpage*/
+/*start of factpage*/
+#facts .fact-container
+{
+    border:1px solid white;
+    margin-right:4%;
+    margin-left:3%; 
+}
+.fact-container h1{text-align: center;font-size:40px;font-weight:bold;}
+.fact-container p{text-align: center;font-size:20px;margin-bottom:5%;}
+.text-center{margin-left:-1%;}
+#facts .counters span {
+    font-size: 40px;
+    display: block;
+    color: #2dc997;
+  }
+  
+  #facts .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+/*end of factpage*/
+/*start of servicepage*/
+#services .container
+{
+    border:1px solid white;
+    margin-top:10%;
+     
+}
+.container h1{text-align: center;font-size:38px;font-weight:bold;padding-bottom:2%;}
+.container p{text-align: center;font-size:20px;margin-bottom: 4%;}
+#services .box
+{
+    padding: 10px 15px 2px 15px;
+    margin-bottom:9%;
+    text-align: center;
+    border: 1px solid #E5E7E9;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+                
+}
+#services .row .icon
+{
+    position: absolute;
+    top:-25px;
+    left:150px;
+    font-size:45px;
+    padding:2%;
+    border-radius:50%;
+    background-color: lightseagreen;
+
+}
+#services .row .icon :hover{color:lightseagreen;background-color:black;;}
+#services .icon a{text-align: center;display: inline;}
+#services .row .icon i{color:black;font-size:30px;}
+#services .row .title {font-size:25px;}
+#services .row .description {text-align: center;font-size:20px;line-height:25px;}
+/*end of servicepage*/
+/*start of calltoAction*/
+#calltoAction 
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 4),rgba(0,0,0,0.5)),url(../img/call-to-action-bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+}
+#calltoAction .cta-title 
+{
+    text-align: left;
+    margin-top:10%;
+    margin-left:9%;
+    color:white;
+    font-size:20px;
+}
+#calltoAction .cta-text
+{
+    text-align: left;
+    margin-top:3%;
+    margin-left:9%;
+    color:white;
+    font-size:16px;  
+}
+#calltoAction .cta-btn-container
+{
+    text-align: right;
+    margin-top:10%;
+}
+#calltoAction .cta-btn 
+{
+    border:2px solid white;
+    border-radius:10px 10px 10px 10px;
+    padding:3%;
+    font-size:20px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color:white;
+    
+}
+#calltoAction .cta-btn:hover
+{ 
+    background: #2dc997;
+    border: 2px solid #2dc997;
+    text-decoration:none;
+}
+/*end of calltoAction*/ 
+/*start of portfolio*/
+#portfolio .portfolio-title 
+{
+    text-align: center;
+    margin-top:10%;
+    font-weight:bold;
+    font-size:38px;
+    text-transform: uppercase;
+}
+#portfolio .portfolio-description
+{
+    text-align: center;
+    font-size:20px;
+    padding-top:1%;
+}
+
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid lightseagreen ;
+    border-radius: 5px;
+    text-align: center;
+    color: lightseagreen;
+    margin-bottom: 30px;
+    margin-left:2%;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    background-color: lightseagreen;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: lightseagreen;
+    color: black;
+}
+
+.port-image
+{
+    width: 100%;
+  
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+    position: relative;
+
+}
+#portfolio .gallery_product .overlay
+{ 
+    position: absolute;
+    background-color: lightseagreen;
+    display: inline-block;
+    text-align: center;
+    width: 92.5%;
+    bottom: 0;
+    padding-left: 24.5%;
+    padding-right: 24.5%;
+    transition: .5s ease;
+    opacity:0;
+    color: black;
+    font-size: 20px;
+}
+ .gallery_product img:hover
+{
+    top:-20%;
+}
+#portfolio .gallery_product:hover .overlay
+{
+    opacity: 2;
+}
+
+/*
+#portfolio .container{height:auto;}
+#portfolio .portfolio-title 
+{
+    text-align: center;
+    margin-top:10%;
+    font-weight:bold;
+    font-size:38px;
+    text-transform: uppercase;
+}
+#portfolio .portfolio-description
+{
+    text-align: center;
+    font-size:20px;
+    padding-top:1%;
+}
+.portfolio-filtering
+{
+    text-decoration:none;
+    text-align: center;
+    
+}
+.btn 
+{
+    background-color: white;
+    padding:2.5%;
+}
+.btn:hover 
+{
+    background-color: #ddd;
+}
+.btn.active 
+{
+    background-color: lightseagreen;
+    color: white;
+}  
+.portfolio-img
+{
+    height:auto;
+}   
+.portfolio-img-1 img
+{
+    height:250px;
+    position: relative;
+    display:block;
+    margin-top: 10%;
+} 
+.portfolio-img-1 .overlay
+{ 
+    position: absolute;
+    background-color: lightseagreen;
+    display: inline-block;
+    text-align: center;
+    bottom: 0;
+    padding-left: 24.5%;
+    padding-right: 24.5%;
+    transition: .5s ease;
+    opacity:0;
+    color: black;
+    font-size: 20px;
+    
+   
+}
+.portfolio-img-1 img:hover
+{
+    top:-30px;
+}
+.portfolio-img-1:hover .overlay
+{
+    opacity: 1;
+}
+/*end of portfolio*/
+/*start of team*/
+#team .container
+{
+    height:auto;
+}
+#team .container h3
+{
+    margin-top:10%;
+    text-align: center;
+    font-size:40px;
+    color:black;
+}
+.team-img
+{
+    margin-left:0.5%;
+    text-align: center;
+   
+}
+.social a{padding:0.5%;}
+.social i
+{
+    font-size:20px;
+    margin-top:2%;
+    background-color:lightseagreen;
+    border-radius:50%;
+    padding:1.5%;
+    color: black;
+}
+.social i:hover
+{
+    color:lightseagreen;
+    background-color: black;
+}
+/*end of team*/
+/*start of contactus*/
+#contactus .container
+{
+    height:auto;
+}
+#contactus .container h1
+{
+    margin-top:10%;
+    text-align: center;
+    font-size:40px;
+    color:black;
+}
+.info
+{
+    margin-left:5%;
+    
+}
+.info i
+{
+    color:lightseagreen;
+    font-size:20px;
+    margin-left:30%;
+    margin-top:5%;
+
+}
+.info p
+{
+    margin-top:-5%;
+    font-size:16px;
+}
+.social-links
+{
+    margin-left:35%;
+    margin-top:5%;
+}
+.social-links i
+{
+    color:lightseagreen;
+    font-size:25px;
+    background-color:black;
+    border-radius:50%;
+    padding:1%;
+}
+.social-links i:hover
+{
+    background-color: lightseagreen;
+    color:black;
+}
+.usrform input
+{
+	width:77%;
+	height:6%;
+	padding: 5px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	color:gray;  
+}
+.contactusform textarea
+{
+    width: 77%;
+    height: 150px;
+    padding: 10px 10px;
+	color:gray;
+}
+#contact .contactusform .validation 
+{
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+.contactusform a
+{
+ margin-left:50%;
+ background-color:lightseagreen;
+ color:black;
+ padding:12px 30px;
+ text-decoration:none;
+ border-radius:10px 0px 15px 0px;
+}
+.contactusform a:hover
+{
+	color:black;
+	background-color:lightseagreen;
+} 
+/*end of contactus*/
+/*start of footer*/
+#footer 
+{
+    margin-top:70%;
+    background-color: #343b40;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+  
+#footer .copyright 
+{
+    text-align: center;
+}
+  
+#footer .credits 
+{
+    
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+}
+
+#footer a
+{
+    color:white;
+    text-align: center;
+      
+}
+#footer i
+{
+    font-size:30px;
+    margin-left:50%;
+    margin-top:2%;
+}
+/*end of footer*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
+    /*start of header*/
+.container-fluid menu
+{
+  width: 100%;
+  
+}
+.navbar-header
+{
+   padding-left:5%;
+   color: #333;  
+}
+.nav
+{
+    padding-left:35%;
+    height:auto;
+}
+.nav > li > a
+{   
+   
+    color: #333;
+    transition: 0.3s;
+    display: block;
+    font-size: 13px;
+    text-transform: none;}
+.nav > li > a:hover, .nav > li > a:focus
+{
+    color:white;
+    background-color: black;
+}
+  
+#logo{padding-left:5%;padding-top:1%;}
+/*end of header*/
+/*start of homepage*/
+#homepage .homepage-container-fluid
+{
+    
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(../img/hero-bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+    padding-top: 100px;
+    padding-bottom:20%;
+   
+
+}
+.homepage-container-fluid h1
+{
+    text-align: center;
+    font-size:50px;
+    color:gray;
+    padding-top:15%;
+}
+.homepage-container-fluid p
+{
+    text-align: center;
+    font-size:20px;
+    color:gray;
+    padding-top:2%;
+    padding-bottom:2%;
+}
+.homepage-container-fluid a
+{
+    text-align: center;
+    font-size:20px;
+    color:gray;
+    border:1px solid white;
+    border-radius:10px;
+    padding:0.5%;
+    margin-left:45%; 
+}
+/*end of homepage*/
+/*start of aboutpage*/
+#about .container
+{height:auto;}
+.about-container
+{
+    height:auto;
+  
+}
+
+#about .content h2
+{
+    text-align: left;
+    font-weight:bold;
+    margin-top:10%;    
+}
+#about .content p
+{
+    padding-top:2%;
+    text-align: left;
+}
+
+.icon i
+{
+    float: left;
+    color:lightseagreen;
+    padding:2%;
+    margin-top:1%;
+    font-size:35px;
+    border:2px solid lightseagreen;
+    border-radius:50%;
+} 
+ .title 
+{
+    margin-left:12%;
+    padding-top:3%;
+    font-size:25px;
+    font-weight:bold;
+}
+#about .icon-box p
+{
+    margin-left:12%;
+    text-align: left;
+    margin-top: 20px;
+   
+}
+#about .bg-image
+{
+    border:1px solid white;
+    margin-top:20%;
+    margin-left:5%;
+
+}
+/*end of aboutpage*/
+/*start of factpage*/
+#facts .fact-container
+{
+    border:1px solid white;
+    margin-right:4%;
+    margin-left:3%; 
+}
+.fact-container h1{text-align: center;font-size:40px;font-weight:bold;}
+.fact-container p{text-align: center;font-size:20px;margin-bottom:5%;}
+.text-center{margin-left:-1%;}
+#facts .counters span {
+    font-size: 40px;
+    display: block;
+    color: #2dc997;
+  }
+  
+  #facts .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+  }
+/*end of factpage*/
+/*start of servicepage*/
+#services .container
+{
+    border:1px solid white;
+    margin-top:10%;
+     
+}
+.container h1{text-align: center;font-size:38px;font-weight:bold;padding-bottom:2%;}
+.container p{text-align: center;font-size:20px;margin-bottom: 4%;}
+#services .box
+{
+    padding: 10px 15px 2px 15px;
+    margin-bottom:9%;
+    text-align: center;
+    border: 1px solid #E5E7E9;
+    height: 200px;
+    position: relative;
+    background: #fafafa;
+                
+}
+#services .row .icon
+{
+    position: absolute;
+    top:-25px;
+    left:150px;
+    font-size:45px;
+    padding:2%;
+    border-radius:50%;
+    background-color: lightseagreen;
+
+}
+#services .row .icon :hover{color:lightseagreen;background-color:black;;}
+#services .icon a{text-align: center;display: inline;}
+#services .row .icon i{color:black;font-size:30px;}
+#services .row .title {font-size:25px;}
+#services .row .description {text-align: center;font-size:20px;line-height:25px;}
+/*end of servicepage*/
+/*start of calltoAction*/
+#calltoAction 
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 4),rgba(0,0,0,0.5)),url(../img/call-to-action-bg.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+}
+#calltoAction .cta-title 
+{
+    text-align: left;
+    margin-top:10%;
+    margin-left:9%;
+    color:white;
+    font-size:20px;
+}
+#calltoAction .cta-text
+{
+    text-align: left;
+    margin-top:3%;
+    margin-left:9%;
+    color:white;
+    font-size:16px;  
+}
+#calltoAction .cta-btn-container
+{
+    text-align: right;
+    margin-top:10%;
+}
+#calltoAction .cta-btn 
+{
+    border:2px solid white;
+    border-radius:10px 10px 10px 10px;
+    padding:3%;
+    font-size:20px;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color:white;
+    
+}
+#calltoAction .cta-btn:hover
+{ 
+    background: #2dc997;
+    border: 2px solid #2dc997;
+    text-decoration:none;
+}
+/*end of calltoAction*/ 
+/*start of portfolio*/
+#portfolio .portfolio-title 
+{
+    text-align: center;
+    margin-top:10%;
+    font-weight:bold;
+    font-size:38px;
+    text-transform: uppercase;
+}
+#portfolio .portfolio-description
+{
+    text-align: center;
+    font-size:20px;
+    padding-top:1%;
+}
+
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid lightseagreen ;
+    border-radius: 5px;
+    text-align: center;
+    color: lightseagreen;
+    margin-bottom: 30px;
+    margin-left:2%;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    background-color: lightseagreen;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: lightseagreen;
+    color: black;
+}
+
+.port-image
+{
+    width: 100%;
+  
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+    position: relative;
+
+}
+#portfolio .gallery_product .overlay
+{ 
+    position: absolute;
+    background-color: lightseagreen;
+    display: inline-block;
+    text-align: center;
+    width: 92.5%;
+    bottom: 0;
+    padding-left: 24.5%;
+    padding-right: 24.5%;
+    transition: .5s ease;
+    opacity:0;
+    color: black;
+    font-size: 20px;
+}
+ .gallery_product img:hover
+{
+    top:-20%;
+}
+#portfolio .gallery_product:hover .overlay
+{
+    opacity: 2;
+}
+/*
+#portfolio .container{height:auto;}
+#portfolio .portfolio-title 
+{
+    text-align: center;
+    margin-top:10%;
+    font-weight:bold;
+    font-size:38px;
+    text-transform: uppercase;
+}
+#portfolio .portfolio-description
+{
+    text-align: center;
+    font-size:20px;
+    padding-top:1%;
+}
+.portfolio-filtering
+{
+    text-decoration:none;
+    text-align: center;
+    
+}
+#portfolio  .btn 
+{
+    background-color: white;
+    padding:2.5%;
+}
+#portfolio  .btn:hover 
+{
+    background-color: #ddd;
+}
+#portfolio  .btn.active 
+{
+    background-color: lightseagreen;
+    color: white;
+}  
+#portfolio .portfolio-img
+{
+    height:auto;
+}   
+#portfolio  .portfolio-img-1 img
+{
+    height:250px;
+    position: relative;
+    display:block;
+    margin-top: 10%;
+} 
+#portfolio .portfolio-img-1 .overlay
+{ 
+    position: absolute;
+    background-color: lightseagreen;
+    display: inline-block;
+    text-align: center;
+    bottom: 0;
+    padding-left: 24.5%;
+    padding-right: 24.5%;
+    transition: .5s ease;
+    opacity:0;
+    color: black;
+    font-size: 20px;
+    
+   
+}
+#portfolio  .portfolio-img-1 img:hover
+{
+    top:-30px;
+}
+#portfolio  .portfolio-img-1:hover .overlay
+{
+    opacity: 1;
+}
+/*end of portfolio*/
+/*start of team*/
+#team .container
+{
+    height:auto;
+}
+#team .container h3
+{
+    margin-top:10%;
+    text-align: center;
+    font-size:40px;
+    color:black;
+}
+#team .team-img
+{
+    margin-left:0.5%;
+    text-align: center;
+   
+}
+.social a{padding:0.5%;}
+.social i
+{
+    font-size:20px;
+    margin-top:2%;
+    background-color:lightseagreen;
+    border-radius:50%;
+    padding:1.5%;
+    color: black;
+}
+.social i:hover
+{
+    color:lightseagreen;
+    background-color: black;
+}
+/*end of team*/
+/*start of contactus*/
+#contactus .container
+{
+    height:auto;
+}
+#contactus .container h1
+{
+    margin-top:10%;
+    text-align: center;
+    font-size:40px;
+    color:black;
+}
+.info
+{
+    margin-left:5%;
+    
+}
+.info i
+{
+    color:lightseagreen;
+    font-size:20px;
+    margin-left:30%;
+    margin-top:5%;
+
+}
+.info p
+{
+    margin-top:-5%;
+    font-size:16px;
+}
+.social-links
+{
+    margin-left:35%;
+    margin-top:5%;
+}
+.social-links i
+{
+    color:lightseagreen;
+    font-size:25px;
+    background-color:black;
+    border-radius:50%;
+    padding:1%;
+}
+.social-links i:hover
+{
+    background-color: lightseagreen;
+    color:black;
+}
+.usrform input
+{
+	width:77%;
+	height:6%;
+	padding: 5px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	color:gray;  
+}
+.contactusform textarea
+{
+    width: 77%;
+    height: 150px;
+    padding: 10px 10px;
+	color:gray;
+}
+#contact .contactusform .validation 
+{
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+  }
+.contactusform a
+{
+ margin-left:50%;
+ background-color:lightseagreen;
+ color:black;
+ padding:12px 30px;
+ text-decoration:none;
+ border-radius:10px 0px 15px 0px;
+}
+.contactusform a:hover
+{
+	color:black;
+	background-color:lightseagreen;
+} 
+/*end of contactus*/
+/*start of footer*/
+#footer 
+{
+    margin-top:70%;
+    background-color: #343b40;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+  
+#footer .copyright 
+{
+    text-align: center;
+}
+  
+#footer .credits 
+{
+    
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+}
+
+#footer a
+{
+    color:white;
+    text-align: center;
+      
+}
+#footer i
+{
+    font-size:30px;
+    margin-left:50%;
+    margin-top:2%;
+}
+/*end of footer*/
+
+
+
+}
